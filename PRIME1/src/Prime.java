@@ -4,7 +4,7 @@
 import java.io.BufferedInputStream;
 import java.util.Scanner;
 
-public class PRIME1 {
+public class Prime {
     public static void main(String[] args) {
         // write your code here
         Scanner scanner = new Scanner(new BufferedInputStream(System.in));
