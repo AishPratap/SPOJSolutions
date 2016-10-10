@@ -8,16 +8,9 @@ public class Main {
     public static void main(String args[]){
 
         Scanner scanner = new Scanner(System.in);
-//        String inputString = scanner.nextLine();
-//        String targetString = scanner.nextLine();
+        String inputString = scanner.nextLine();
+        String targetString = scanner.nextLine();
 
-        String inputString = "ab";
-        String targetString = "ba";
-
-        for (int i = 0; i < 25000; i++){
-            inputString = inputString.concat("ab");
-            targetString = targetString.concat("ba");
-        }
 
         Main obj = new Main();
         int length = obj.getLongestCommonSubsequenceLength(inputString,targetString);
